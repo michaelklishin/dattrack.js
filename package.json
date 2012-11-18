@@ -1,0 +1,25 @@
+{
+  "name": "dattrack",
+  "version": "1.0.0",
+  "dependencies": {
+    "underscore": "~1.4.2",
+    "restler"   : "~2.0.1",
+    "commander":  "~1.1.0"
+  },
+  "devDependencies": {
+    "vows"      : "~0.7.0",
+    "eyes"      : "~0.1.8"
+  },
+  "bin": {
+    "dattrack-js": "runner.js"
+  },
+  "main": "./lib/dattrack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelklishin/dattrack.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
