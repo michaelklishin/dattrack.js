@@ -6,7 +6,7 @@ It displays recent tracks from a particular channel in the shell.
 
 DatTrack was developed as a small code kata excercise and should not be taken seriously.
 This particular version is a JavaScript port of the [original DatTrack](https://github.com/michaelklishin/dattrack),
-developed to learn about .
+developed to learn about NPM module development workflow.
 
 
 ## Installation
