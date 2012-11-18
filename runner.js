@@ -34,7 +34,7 @@ function displayTrack(item) {
   }
 }
 
-util.puts(util.format("Showing %d most recent tracks in %s", cmd.limit, cmd.channel));
+util.puts(util.format("Showing %d most recent tracks in %s\n", cmd.limit, dt.humanNameForGenre(cmd.channel)));
 
 dt.recentTracksForGenre(cmd.channel, function(xs) {
   _.map(_.take(xs, cmd.limit), displayTrack);
