@@ -22,7 +22,7 @@ function displayMusicTrack(item) {
   if(dt.missingArtist(item)) {
     util.puts(util.format("* %s", item.track));
   } else {
-    util.puts(util.format("* %s — %s", item.artist, item.track));
+    util.puts(util.format("* %s — %s", item.artist, item.title));
   }
 }
 
