@@ -19,8 +19,8 @@ function displayAdTrack(item) {
 }
 
 function displayMusicTrack(item) {
-  if(dt.missingArtist(item)) {
-    util.puts(util.format("* %s", item.track));
+  if(dt.missingArtistOrTitle(item)) {
+    util.puts(util.format("* %s", item.track.replace(/\s-\s/, " — ")));
   } else {
     util.puts(util.format("* %s — %s", item.artist, item.title));
   }
