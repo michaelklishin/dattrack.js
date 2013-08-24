@@ -4,11 +4,11 @@
   "dependencies": {
     "underscore": "~1.4.2",
     "restler"   : "~2.0.1",
-    "commander":  "~1.1.0"
+    "commander":  "~1.1.0",
+    "eyes"      : "~0.1.8"
   },
   "devDependencies": {
-    "vows"      : "~0.7.0",
-    "eyes"      : "~0.1.8"
+    "vows"      : "~0.7.0"
   },
   "bin": {
     "dattrack-js": "runner.js"
